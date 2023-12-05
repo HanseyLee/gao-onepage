@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1364354",
+      "name": "知网",
+      "font_class": "zhiwang",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "1410326",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "10506955",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "11466710",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "12602279",
+      "name": "sj_cnki",
+      "font_class": "sj_cnki",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "14063774",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "27363412",
+      "name": "dog",
+      "font_class": "dog",
+      "unicode": "eb1f",
+      "unicode_decimal": 60191
+    },
+    {
+      "icon_id": "37043400",
+      "name": "知网",
+      "font_class": "zhiwang1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "37665056",
+      "name": "CNKI检索",
+      "font_class": "CNKIjiansuo",
+      "unicode": "e840",
+      "unicode_decimal": 59456
+    }
+  ]
+}

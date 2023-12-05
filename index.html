@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="./css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="font.css" >
+  <link rel="stylesheet" href="./icon/iconfont.css">
 </head>
 <body>
   <page size="A4">
@@ -19,7 +21,8 @@
             </h2>
             <div class="smallText">
               <p>
-                <i class="fa fa-phone contactIcon" aria-hidden="true"></i>
+                <!-- <i class="fa fa-phone contactIcon" aria-hidden="true"></i> -->
+                <span class="iconfont icon-phone"></span>
                 (+86) 6931580
               </p>
               <p id="eamil-placeholder">
@@ -31,21 +34,19 @@
                 
               </p>
               <p>
-                <i class="fa fa-map-marker contactIcon" aria-hidden="true"></i>
+                <!-- <i class="fa fa-map-marker contactIcon" aria-hidden="true"></i> -->
+                <span class="iconfont icon-location"></span>
                 New York, USA
               </p>
               <p>
-                <i class="fa fa-linkedin-square contactIcon" aria-hidden="true"></i>
-                <a href="#">
-                  in/loremipsum
+                <!-- <i class="fa fa-linkedin-square contactIcon" aria-hidden="true"></i> -->
+                <a href="https://kns.cnki.net/kcms2/article/abstract?v=AnuRcxOpZiH9wSEkMuCkxkBdhftQzMB8yycjTVeuF-qwWet24S3MWspOvXZk3wDa54UuFXVjNU4kbHArnA-RVvI1mSv8rNveuQdHAxeB1ZwQW3ls2BQHOO_grgcBsx5hQGdGPLt8KZ7yWNs5I9UeKA==&uniplatform=NZKPT&language=CHS">
+                  <span class="iconfont icon-zhiwang"></span>
                 </a>
+                <span class="iconfont icon-wechat"></span>
+                <span class="iconfont icon-dog"></span>
               </p>
-              <p class="lastParagrafNoMarginBottom">
-                <i class="fa fa-skype contactIcon" aria-hidden="true"></i>
-                <a href="#">
-                  loremipsum
-                </a>
-              </p>
+             
             </div>
           </div>
           <div class="item bottomLineSeparator">
@@ -333,7 +334,7 @@
       </div>
   </page>   
 
-  
+
 </body>
 <script type="text/javascript">
   var s = "tnb.wvndv@gbatwv.rqh.pa";
@@ -342,7 +343,7 @@
           return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
       });
   };
-  var content = '<i class="fa fa-envelope contactIcon" aria-hidden="true"></i>' + '<a href="mailto:' + s.map() + '"> ' + s.map() + '</a>';
+  var content = '<span class="iconfont icon-email"></span>' + '<a href="mailto:' + s.map() + '"> ' + s.map() + '</a>';
   var target = document.getElementById('eamil-placeholder')
   target.innerHTML = content;
 </script>
